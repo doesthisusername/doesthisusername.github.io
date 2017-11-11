@@ -1,5 +1,12 @@
 * {
-   font-family: "Titillium Web"
+   font-family: "Titillium Web";
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+
+body {
+   background-color: #1E1E1E;
 }
 
 .title {
@@ -10,8 +17,21 @@
 #goal-select {
    font-weight: bold;
    font-size: 40px;
+   background-color: #1E1E1E;
+   border: none;
 }
 
 #time-table {
    width: 100%;
+   border-collapse: collapse;
+}
+
+#time-table > tbody > tr > th {
+   background-color: #3179fd;
+   font-size: 25px;
+   height: 30px;
+}
+
+#time-table > tbody > tr > td {
+   background-color: #1E1E1E;
 }
