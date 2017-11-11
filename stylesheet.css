@@ -1,0 +1,13 @@
+* {
+   font-family: "Titillium Web"
+}
+
+.title {
+   font-size: 40px;
+   text-align: center;
+}
+
+#goal-select {
+   font-weight: bold;
+   font-size: 40px;
+}
